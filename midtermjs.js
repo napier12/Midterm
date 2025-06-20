@@ -56,6 +56,7 @@ const createFlavor = () => {
     flavor.push({
         name: userFlavor,
         price: parseFloat(userPrice),
+        details: userDetails,
     });
     flavorInput();
     console.log(flavor);
