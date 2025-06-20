@@ -52,6 +52,7 @@ const showInfo = () => {
 const createFlavor = () => {
     let userFlavor = prompt("Flavor Name");
     let userPrice = prompt("Flavor Price");
+    let userDetails = prompt("Flavor Details");
     flavor.push({
         name: userFlavor,
         price: parseFloat(userPrice),
